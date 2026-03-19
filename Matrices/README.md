@@ -1,12 +1,15 @@
-Matrices
+# Matrices
+
 This folder includes problems involving 2D arrays and grid-based computations.
 
-Topics Covered
-2D Prefix Sum
-Submatrix Problems
-Traversal (DFS/BFS)
-Grid Transformations
-Simulation
+## Topics Covered
 
-Goal
-Improve problem-solving on grids, optimize submatrix computations, and master 2D traversal patterns.
+* 2D Prefix Sum
+* Submatrix Problems
+* Grid Traversal (DFS/BFS)
+* Matrix Transformations
+* Simulation
+
+## Goal
+
+Improve understanding of grid-based problems and master efficient 2D computation techniques.
