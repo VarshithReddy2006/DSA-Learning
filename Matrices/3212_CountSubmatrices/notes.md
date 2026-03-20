@@ -4,7 +4,7 @@
 
 ## 🧠 Idea
 
-Since submatrix must include (0,0), we only consider prefix submatrices.
+Since the submatrix must include (0,0), we only consider prefix submatrices.
 
 ## 🚀 Approach
 
