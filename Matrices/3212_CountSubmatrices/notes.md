@@ -2,9 +2,15 @@
 
 🔗 [Problem Link](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/)
 
+**Difficulty:** Medium
+
 ## 🧠 Idea
 
 Since the submatrix must include (0,0), we only consider prefix submatrices.
+
+## 🧠 Pattern
+
+2D Prefix Sum
 
 ## 🚀 Approach
 
@@ -26,4 +32,4 @@ Since the submatrix must include (0,0), we only consider prefix submatrices.
 
 * Constraints can simplify problems drastically
 * 2D prefix sum avoids brute force
-* Always check if problem reduces to prefix
+* Always check if a problem can be reduced to prefix computation
