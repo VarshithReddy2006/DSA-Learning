@@ -5,21 +5,21 @@ This directory contains my solutions to LeetCode Weekly and Biweekly Contests.
 ---
 
 ## 📂 Structure
-Contests/
-├── Weekly/
-│ └── Contest_Folder/
-│ ├── Q1.java
-│ ├── Q2.java
-│ ├── Q3.java
-│ └── Q4.java
-│
-└── Biweekly/
-└── Contest_Folder/
-├── Q1.java
-├── Q2.java
-├── Q3.java
-└── Q4.java
 
+    Contests/
+    ├── Weekly/
+    │   └── Contest_Folder/
+    │       ├── Q1.java
+    │       ├── Q2.java
+    │       ├── Q3.java
+    │       └── Q4.java
+    │
+    └── Biweekly/
+        └── Contest_Folder/
+            ├── Q1.java
+            ├── Q2.java
+            ├── Q3.java
+            └── Q4.java
 ---
 
 ## 📅 Weekly Contests
