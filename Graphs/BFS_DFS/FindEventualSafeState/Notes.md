@@ -30,7 +30,7 @@ A node is **unsafe** if:
 A node is **safe** if:
 - It **cannot reach any cycle**
 
-👉 Reduced problem:
+👉 Reduced problem:  
 **Find all nodes that do NOT lead to a cycle**
 
 ---
@@ -104,61 +104,15 @@ A node is **safe** if:
 
 ## 🧪 Example (Visual Understanding)
 
-### Graph Representation
+### Graph Representation (Adjacency List)
 
-Adjacency list:
-
+```text
 graph = [
-  [1, 2],   // 0 → 1, 2  
-  [2, 3],   // 1 → 2, 3  
-  [5],      // 2 → 5  
-  [0],      // 3 → 0 (cycle)  
-  [5],      // 4 → 5  
-  [],       // 5 → terminal  
-  []        // 6 → terminal  
+  [1, 2],   // 0 → 1, 2
+  [2, 3],   // 1 → 2, 3
+  [5],      // 2 → 5
+  [0],      // 3 → 0 (cycle)
+  [5],      // 4 → 5
+  [],       // 5 → terminal
+  []        // 6 → terminal
 ]
-
----
-
-### Explanation
-
-- Cycle present:  
-  0 → 1 → 3 → 0 → ❌ cycle  
-
-- Nodes involved in or leading to cycle:  
-  0, 1, 3 → unsafe  
-
-- Nodes leading to terminal:  
-  2 → 5 → terminal → ✅ safe  
-  4 → 5 → terminal → ✅ safe  
-  5, 6 → terminal → ✅ safe  
-
----
-
-### Output
-
-[2, 4, 5, 6]
-
----
-
-### Intuition
-
-- If a node has **even one path** going into a cycle → ❌ unsafe  
-- Only nodes that are **guaranteed to end at terminal nodes** → ✅ safe  
-
-👉 Think:  
-"Can I ever get stuck in a loop from here?"  
-- Yes → unsafe  
-- No → safe  
-
----
-
-## 🏁 Summary
-
-- Safe nodes = nodes that **don’t lead to cycles**  
-- Core concept: **Cycle detection in directed graph**  
-- Two approaches:
-  - DFS (state tracking)  
-  - BFS (topological sort)  
-
----
