@@ -82,3 +82,19 @@ To build a repository that reflects:
 ---
 
 > “I don’t aim to remember solutions. I aim to understand patterns so deeply that I can rebuild solutions from scratch.”
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/VarshithReddy2006/DSA-Learning/tree/master/0004-median-of-two-sorted-arrays) |
+## Binary Search
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/VarshithReddy2006/DSA-Learning/tree/master/0004-median-of-two-sorted-arrays) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0004-median-of-two-sorted-arrays](https://github.com/VarshithReddy2006/DSA-Learning/tree/master/0004-median-of-two-sorted-arrays) |
+<!---LeetCode Topics End-->
